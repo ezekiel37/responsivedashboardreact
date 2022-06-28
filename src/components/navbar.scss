@@ -1,0 +1,30 @@
+
+.menubar{
+   height:50px;
+   min-width:100%;
+    background: #FFFFFF;
+   display:flex;
+   align-items: center;
+   justify-content:end;
+  
+.btn-text{
+   padding-left:.5rem;
+}
+
+}
+.nav-logo{
+   height:40px;
+   width:40px;
+ margin-left: 1.5rem;
+ margin-right: 1rem;
+}
+.btn-outline-danger{
+   &:hover{
+      background-color: #db2a2a;
+      color: #ffffff;
+   }
+}
+.btn-link{
+   text-decoration: none;
+   color:black;
+}

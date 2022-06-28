@@ -1,0 +1,112 @@
+.sidebar {
+  background: rgba(45, 53, 62, 1);
+  min-height: 100%;
+
+  .brand {
+    display: flex;
+    height: 50px;
+    background-color: #22282F;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: medium;
+  }
+  .logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  .profile {
+    display: flex;
+    height: 67px;
+    padding-left: 1rem;
+    background-color:#2D353E;
+    align-items: center;
+    color: #fff;
+    .profile-img {
+      padding-right: 1rem;
+    }
+    .name {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .subtitle {
+      font-size: 12px;
+    }
+  }
+
+  //sidenav{
+
+  .sidenav {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        padding: 10px;
+        margin: 0;
+        span {
+          font-size: 16px;
+          padding-right: 0.5rem;
+          padding-left: 0.5rem;
+        }
+        .sidelink {
+          text-decoration: none;
+          color: rgb(150, 149, 149);
+          font-size: 14px;
+        }
+      }
+      .dropnav {
+        display: flex;
+        span {
+          color: rgb(150, 149, 149);
+          font-size: 14px;
+        }
+      }
+      .nav-link {
+        padding: 0px !important;
+        margin: 0px !important;
+        text-decoration: none;
+        color: rgb(150, 149, 149);
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+//mobile
+.mobilesidenav {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      padding: 20px;
+      margin: 0;
+      span {
+        font-size: 20px;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+      }
+      .sidelink {
+        text-decoration: none;
+        color: rgb(150, 149, 149);
+        font-size: 14px;
+      }
+    }
+    .dropnav {
+      display: flex;
+      span {
+        color: rgb(150, 149, 149);
+        font-size: 14px;
+      }
+    }
+    .nav-link {
+      padding: 0px !important;
+      margin: 0px !important;
+      text-decoration: none;
+      color: rgb(150, 149, 149);
+      font-size: 14px;
+    }
+  }
+}

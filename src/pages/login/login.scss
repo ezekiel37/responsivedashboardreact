@@ -1,0 +1,29 @@
+
+.form-section{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.form-header{
+    span{
+        font-size:14px;
+      
+    }
+}
+.form-body{
+    width:20rem;
+   }
+.background{
+   background-image: url("../../assets/background.png");
+   background-size: cover;
+   height:100vh;
+   width:100%;
+    
+}
+.btn-link{
+    text-decoration: none;
+    color:#364152;
+}
